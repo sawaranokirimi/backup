@@ -14,12 +14,6 @@ print b
 
 # 振り分け                              
 n = 6
-"""index = np.argwhere(np.arange(n**2).reshape(n, n))
-num = a.shape[0]
-pop_on_lattice = np.zeros(n, n)
-for i,j in index:
-    for num_i in num:
-        print i, j """
 
 
 pop_on_lattice = np.zeros([n, n]) 
