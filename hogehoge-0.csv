@@ -1,331 +1,88 @@
 ,name,pop,lat,lon
-0,"Belley, Ain",96121,45.760758,5.6861466
-1,"Bourg-en-Bresse, Ain",346620,46.2051192,5.2250324
-2,"Gex, Ain",84742,46.3324378,6.0588831
-3,"Nantua, Ain",84708,46.1534255,5.6058987
-4,"Château-Thierry, Aisne",72638,49.0439711,3.40299
-5,"Laon, Aisne",166248,49.564665,3.620686
-6,"Saint-Quentin, Aisne",131621,49.8486111,3.2863888
-7,"Soissons, Aisne",103510,49.3816667,3.3236111
-8,"Vervins, Aisne",66871,49.8333336,3.9085372
-9,"Montluçon, Allier",115585,46.3399276,2.6067229
-10,"Moulins, Allier",105288,46.566142,3.333179
-11,"Vichy, Allier",122038,46.1239268,3.4203712
-12,"Barcelonnette, Alpes-de-Haute-Provence",8021,44.3862043,6.6513554
-13,"Castellane, Alpes-de-Haute-Provence",9528,43.8462177,6.5131814
-14,"Digne-les-Bains, Alpes-de-Haute-Provence",56077,44.0918144,6.2351431
-15,"Forcalquier, Alpes-de-Haute-Provence",87615,43.9585575,5.780446
-16,"Grasse, Alpes-Maritimes",559723,43.6589011,6.9239103
-17,"Nice, Alpes-Maritimes",522291,43.7009358,7.2683912
-18,"Largentière, Ardèche",96941,44.5418516,4.2932518
-19,"Privas, Ardèche",86717,44.7352708,4.5986733
-20,"Tournon-sur-Rhône, Ardèche",134749,45.0675156,4.832852
-21,"Charleville-Mézières, Ardennes",163155,49.7599365,4.7186932
-22,"Rethel, Ardennes",36864,49.5091447,4.3666467
-23,"Sedan, Ardennes",60478,49.7033759,4.9433409
-24,"Vouziers, Ardennes",22281,49.3972222,4.6974093
-25,"Foix, Ariège",51961,42.9660039,1.6096025
-26,"Pamiers, Ariège",72829,43.1147515,1.6082177
-27,"Saint-Girons, Ariège",27576,42.9841865,1.1464455
-28,"Bar-sur-Aube, Aube",28986,48.2332047,4.7058337
-29,"Nogent-sur-Seine, Aube",54519,48.4971,3.50041
-30,"Troyes, Aube",222101,48.2971626,4.0746257
-31,"Carcassonne, Aude",161254,43.2130358,2.3491069
-32,"Limoux, Aude",44712,43.0538068,2.2176533
-33,"Narbonne, Aude",156373,43.182806,3.0043128
-34,"Millau, Aveyron",70742,44.1006693,3.0777594
-35,"Rodez, Aveyron",141635,44.3510012,2.5733006
-36,"Villefranche-de-Rouergue, Aveyron",63852,44.3517623,2.0375431
-37,"Haguenau, Bas-Rhin",130835,48.8172236,7.7885978
-38,"Molsheim, Bas-Rhin",99024,48.5436171,7.4930563
-39,"Saverne, Bas-Rhin",93471,48.7420277,7.3625104
-40,"Sélestat-Erstein, Bas-Rhin",153829,48.304258,7.486580029
-41,"Strasbourg-Campagne, Bas-Rhin",284815,48.71307065,7.7117076759
-42,"Strasbourg-Ville, Bas-Rhin",274394,48.5854208,7.7334883
-43,"Wissembourg, Bas-Rhin",68299,49.0383877,7.9490308
-44,"Aix-en-Provence, Bouches-du-Rhône",422892,43.5298424,5.4474738
-45,"Arles, Bouches-du-Rhône",201473,43.6776223,4.6309653
-46,"Istres, Bouches-du-Rhône",309836,43.5139051,4.9884323
-47,"Marseille, Bouches-du-Rhône",1050583,43.2961743,5.3699525
-48,"Bayeux, Calvados",67775,49.2764624,-0.7024737
-49,"Caen, Calvados",415237,49.1828008,-0.3690814
-50,"Lisieux, Calvados",147544,49.1460831,0.2255168
-51,"Vire, Calvados",57298,48.8517468,-0.8872593458
-52,"Aurillac, Cantal",82620,44.9285441,2.4433101
-53,"Mauriac, Cantal",26547,45.2178285,2.331882
-54,"Saint-Flour, Cantal",38248,45.0334949,3.0931009
-55,"Angoulême, Charente",196895,45.6496755,0.1568658
-56,"Cognac, Charente",91933,45.6932909,-0.3251947
-57,"Confolens, Charente",64829,46.0163885,0.6673127497
-58,"Jonzac, Charente-Maritime",56749,45.4454469,-0.4320983
-59,"La Rochelle, Charente-Maritime",205719,46.1591126,-1.1520433
-60,"Rochefort, Charente-Maritime",185356,45.9442642,-0.9690431
-61,"Saintes, Charente-Maritime",127317,45.7420801,-0.6299328
-62,"Saint-Jean-d'Angély, Charente-Maritime",53592,45.941,-0.5191409
-63,"Bourges, Cher",173748,47.0805693,2.398932
-64,"Saint-Amand-Montrond, Cher",66638,46.7227062,2.5046503
-65,"Vierzon, Cher",71511,47.2217489,2.0691421
-66,"Brive-la-Gaillarde, Corrèze",129754,45.1584982,1.5332389
-67,"Tulle, Corrèze",78401,45.2678158,1.7706904
-68,"Ussel, Corrèze",33092,45.5463792,2.311227
-69,"Ajaccio, Corse-du-Sud",107320,41.9263991,8.7376029
-70,"Sartène, Corse-du-Sud",38109,41.6208848,8.9721882
-71,"Beaune, Côte-d'Or",97399,47.0239064,4.8380426
-72,"Dijon, Côte-d'Or",368677,47.3215806,5.0414701
-73,"Montbard, Côte-d'Or",61327,47.6269585,4.3347981
-74,"Dinan, Côtes-d'Armor",128604,48.4539775,-2.0476869
-75,"Guingamp, Côtes-d'Armor",87804,48.5618483,-3.1502006
-76,"Lannion, Côtes-d'Armor",100057,48.7322804,-3.4589093
-77,"Saint-Brieuc, Côtes-d'Armor",279066,48.5141594,-2.7602706
-78,"Aubusson, Creuse",37552,45.9546896,2.1672725
-79,"Guéret, Creuse",83965,46.1686865,1.8713349
-80,"Bressuire, Deux-Sèvres",96191,46.8425572,-0.4929016
-81,"Niort, Deux-Sèvres",210947,46.3239455,-0.4645211
-82,"Parthenay, Deux-Sèvres",64445,46.6481266,-0.2472686
-83,"Bergerac, Dordogne",111727,44.8534568,0.487531
-84,"Nontron, Dordogne",41106,45.5294784,0.6618726
-85,"Périgueux, Dordogne",188523,45.1909365,0.7184407
-86,"Sarlat-la-Canéda, Dordogne",75028,44.8879431,1.2161321
-87,"Besançon, Doubs",245791,47.237953,6.0243246
-88,"Montbéliard, Doubs",178123,47.5102368,6.7977564
-89,"Pontarlier, Doubs",107148,46.9040348,6.3546345
-90,"Die, Drôme",42241,44.72964575,5.2044369488
-91,"Nyons, Drôme",138564,44.3555,5.12838
-92,"Valence, Drôme",310529,44.9332277,4.8920811
-93,"Étampes, Essonne",139843,48.4330421,2.1611377
-94,"Évry, Essonne",515487,48.6311001,2.438
-95,"Palaiseau, Essonne",582177,48.7170283,2.2468567
-96,"Bernay, Eure",165189,49.0902278,0.5989157
-97,"Évreux, Eure",245410,49.0183639,1.1375865
-98,"Les Andelys, Eure",181017,49.2469193,1.4215534
-99,"Chartres, Eure-et-Loir",206582,48.4470039,1.4866387
-100,"Châteaudun, Eure-et-Loir",59577,48.0701283,1.3311459
-101,"Dreux, Eure-et-Loir",128566,48.7359121,1.3710486
-102,"Nogent-le-Rotrou, Eure-et-Loir",37382,48.3208851,0.8163959
-103,"Brest, Finistère",368755,48.3905283,-4.4860087
-104,"Châteaulin, Finistère",85720,48.1958514,-4.0910437
-105,"Morlaix, Finistère",129175,48.5824932,-3.8331971
-106,"Quimper, Finistère",317643,47.9960325,-4.1024781
-107,"Alès, Gard",151265,44.1253665,4.0852818
-108,"Le Vigan, Gard",36142,43.9912933,3.6059407
-109,"Nîmes, Gard",538211,43.8374249,4.3600687
-110,"Auch, Gers",85976,43.6464483,0.5847904
-111,"Condom, Gers",65438,43.9564563,0.3745929
-112,"Mirande, Gers",38116,43.5143067,0.4041717
-113,"Arcachon, Gironde",141433,44.6539428,-1.1755713
-114,"Blaye, Gironde",85964,45.1271231,-0.6635963
-115,"Bordeaux, Gironde",893005,44.841225,-0.5800363
-116,"Langon, Gironde",128665,44.5528404,-0.2456515
-117,"Lesparre-Médoc, Gironde",84539,45.3081854,-0.9379401
-118,"Libourne, Gironde",150106,44.9133742,-0.2427216
-119,"Bastia, Haute-Corse",84673,42.7065505,9.452542
-120,"Calvi, Haute-Corse",29440,42.5638369,8.7507502
-121,"Corte, Haute-Corse",56715,42.3060908,9.1504022
-122,"Muret, Haute-Garonne",209710,43.4599858,1.3262332
-123,"Saint-Gaudens, Haute-Garonne",77638,43.1077682,0.7247218
-124,"Toulouse, Haute-Garonne",992001,43.6044622,1.4442469
-125,"Brioude, Haute-Loire",46105,45.2952895,3.3843304
-126,"Le Puy-en-Velay, Haute-Loire",95732,45.0459739,3.8855537
-127,"Yssingeaux, Haute-Loire",83849,45.1434478,4.1244081
-128,"Chaumont, Haute-Marne",65487,48.1118812,5.1394503
-129,"Langres, Haute-Marne",45069,47.8655638,5.3314162
-130,"Saint-Dizier, Haute-Marne",71580,48.6375625,4.9475536
-131,"Briançon, Hautes-Alpes",35631,44.9006928,6.64557
-132,"Gap, Hautes-Alpes",103923,44.5611978,6.0820018
-133,"Lure, Haute-Saône",109691,47.6852975,6.4959828
-134,"Vesoul, Haute-Saône",130059,47.6236088,6.1566367
-135,"Annecy, Haute-Savoie",266091,45.8977758,6.1333989
-136,"Bonneville, Haute-Savoie",181210,46.0776168,6.4081056
-137,"Saint-Julien-en-Genevois, Haute-Savoie",170897,46.1444789,6.0812467
-138,"Thonon-les-Bains, Haute-Savoie",138303,46.3731303,6.4779448
-139,"Argelès-Gazost, Hautes-Pyrénées",38962,43.00511,-0.099768
-140,"Bagnères-de-Bigorre, Hautes-Pyrénées",46466,43.0658212,0.1530914
-141,"Tarbes, Hautes-Pyrénées",143426,43.232858,0.0781021
-142,"Bellac, Haute-Vienne",39938,46.1208934,1.0502585
-143,"Limoges, Haute-Vienne",298127,45.8354243,1.2644847
-144,"Rochechouart, Haute-Vienne",37804,45.8218406,0.8202782
-145,"Altkirch, Haut-Rhin",68697,47.6238204,7.2401542
-146,"Colmar, Haut-Rhin",148444,48.0777517,7.3579641
-147,"Guebwiller, Haut-Rhin",84231,47.9094629,7.2113271
-148,"Mulhouse, Haut-Rhin",322211,47.7494188,7.3399355
-149,"Ribeauvillé, Haut-Rhin",50005,48.1924602,7.3248871
-150,"Thann, Haut-Rhin",81614,47.8101008,7.1020957
-151,"Antony, Hauts-de-Seine",417681,48.753554,2.2959423
-152,"Boulogne-Billancourt, Hauts-de-Seine",321178,48.8356649,2.240206
-153,"Nanterre, Hauts-de-Seine",847575,48.8924273,2.2071267
-154,"Béziers, Hérault",304108,43.341279,3.2166203
-155,"Lodève, Hérault",92176,43.73106,3.31892
-156,"Montpellier, Hérault",681343,43.6112422,3.8767337
-157,"Fougères-Vitré, Ille-et-Vilaine",176038,48.1602476,-1.221947723
-158,"Redon, Ille-et-Vilaine",104433,47.6571027,-2.0824144
-159,"Rennes, Ille-et-Vilaine",573594,48.1113387,-1.6800197
-160,"Saint-Malo, Ille-et-Vilaine",153836,48.6454528,-2.0154179
-161,"Châteauroux, Indre",127262,46.8047,1.6957099
-162,"Issoudun, Indre",35643,46.9477963,1.9888033
-163,"La Châtre, Indre",33328,46.5815678,1.9892292
-164,"Le Blanc, Indre",32459,46.6331207,1.0630185
-165,"Chinon, Indre-et-Loire",86383,47.1667182,0.2402095
-166,"Loches, Indre-et-Loire",50910,47.1281605,0.9974621
-167,"Tours, Indre-et-Loire",459644,47.3900474,0.6889268
-168,"Grenoble, Isère",751263,45.182478,5.7210773
-169,"La Tour-du-Pin, Isère",263082,45.5666202,5.4424054
-170,"Vienne, Isère",210648,45.5252114,4.8747841
-171,"Dole, Jura",83610,47.0921047,5.4925463
-172,"Lons-le-Saunier, Jura",126003,46.6739021,5.5586167
-173,"Saint-Claude, Jura",51319,46.3877989,5.8641501
-174,"Dax, Landes",215905,43.7080596,-1.0533075
-175,"Mont-de-Marsan, Landes",176979,43.8911318,-0.5009719
-176,"Montbrison, Loire",185526,45.6070698,4.0653067
-177,"Roanne, Loire",157208,46.0363902,4.0738682
-178,"Saint-Étienne, Loire",411029,45.4401467,4.3873058
-179,"Ancenis, Loire-Atlantique",61457,47.3657074,-1.1761743
-180,"Châteaubriant, Loire-Atlantique",126603,47.7194057,-1.3757281
-181,"Nantes, Loire-Atlantique",810693,47.2186371,-1.5541361
-182,"Saint-Nazaire, Loire-Atlantique",314568,47.2733517,-2.2138904
-183,"Montargis, Loiret",170115,47.9990047,2.7364119
-184,"Orléans, Loiret",429477,47.9027336,1.9086066
-185,"Pithiviers, Loiret",62705,48.1738051,2.2544871
-186,"Blois, Loir-et-Cher",171397,47.5876861,1.3337639
-187,"Romorantin-Lanthenay, Loir-et-Cher",89576,47.358297,1.7449838
-188,"Vendôme, Loir-et-Cher",70683,47.7955178,1.0661684
-189,"Cahors, Lot",76599,44.4495,1.4364999
-190,"Figeac, Lot",53931,44.6092335,2.0324321
-191,"Gourdon, Lot",43816,44.737024,1.3820575
-192,"Agen, Lot-et-Garonne",118926,44.2015624,0.6176324
-193,"Marmande, Lot-et-Garonne",83324,44.5007939,0.164274
-194,"Nérac, Lot-et-Garonne",39115,44.1363561,0.3396258
-195,"Villeneuve-sur-Lot, Lot-et-Garonne",90754,44.4056615,0.7046455
-196,"Florac, Lozère",13276,44.31901305,3.578020652
-197,"Mende, Lozère",63613,44.5180226,3.4991057
-198,"Angers, Maine-et-Loire",394076,47.4739884,-0.5515587
-199,"Cholet, Maine-et-Loire",202394,47.0617293,-0.8801348
-200,"Saumur, Maine-et-Loire",136875,47.25417435,-0.0661852887
-201,"Segré, Maine-et-Loire",62212,47.2380083,-0.6930967
-202,"Avranches, Manche",123415,48.6862085,-1.3579475
-203,"Cherbourg-Octeville, Manche",190363,49.6343606,-1.6285685908
-204,"Coutances, Manche",84281,49.047792,-1.445491
-205,"Saint-Lô, Manche",101281,49.1157004,-1.0906636
-206,"Châlons-en-Champagne, Marne",102622,48.9566218,4.3628851
-207,"Épernay, Marne",110280,49.0436181,3.9551593
-208,"Reims, Marne",294238,49.2577886,4.031926
-209,"Sainte-Menehould, Marne",13927,49.0904192,4.8967637
-210,"Vitry-le-François, Marne",47683,48.7262225,4.5851622
-211,"Château-Gontier, Mayenne",63954,47.8263058,-0.7066664
-212,"Laval, Mayenne",154478,48.0710377,-0.7723498
-213,"Mayenne, Mayenne",89021,48.2442971,-0.6520266
-214,"Briey, Meurthe-et-Moselle",164424,49.2480975,5.9370519
-215,"Lunéville, Meurthe-et-Moselle",79964,48.5894638,6.5013779
-216,"Nancy, Meurthe-et-Moselle",419485,48.6937223,6.1834097
-217,"Toul, Meurthe-et-Moselle",69393,48.6762624,5.8941759
-218,"Bar-le-Duc, Meuse",61137,48.7736785,5.1621546
-219,"Commercy, Meuse",44683,48.763203,5.5914753
-220,"Verdun, Meuse",86980,49.1589278,5.3867277
-221,"Lorient, Morbihan",310523,47.7504591,-3.3723786888
-222,"Pontivy, Morbihan",124540,48.0642849,-2.959434
-223,"Vannes, Morbihan",297309,47.6586772,-2.7599078
-224,"Boulay-Moselle, Moselle",79847,49.1842243,6.4935123
-225,"Château-Salins, Moselle",29818,48.8230783,6.5113122
-226,"Forbach, Moselle",167518,49.1861533,6.8957413
-227,"Metz-Campagne, Moselle",222352,49.1223741,6.174455
-228,"Metz-Ville, Moselle",119551,49.1095423,6.1768042834
-229,"Sarrebourg, Moselle",64374,48.7356751,7.0533301
-230,"Sarreguemines, Moselle",100236,49.1094836,7.0708865
-231,Thionville-Est,140845,49.41241725,6.0738000531
-232,Thionville-Ouest,121927,49.4298536,5.9512704
-233,"Château-Chinon (Ville), Nièvre",26337,47.0645975,3.9326577
-234,"Clamecy, Nièvre",25610,47.4597508,3.5188732
-235,"Cosne-Cours-sur-Loire, Nièvre",44972,47.4115613,2.9273937
-236,"Nevers, Nièvre",119867,46.9945997,3.1591285
-237,"Avesnes-sur-Helpe, Nord",232657,50.1248,3.9293
-238,"Cambrai, Nord",162211,50.1759602,3.2356613
-239,"Douai, Nord",248077,50.3703683,3.0761377
-240,"Dunkerque, Nord",377314,51.0347708,2.3772525
-241,"Lille, Nord",1217202,50.6305089,3.0706414
-242,"Valenciennes, Nord",349667,50.3594889,3.5266657
-243,"Beauvais, Oise",224054,49.4409001,2.0866699
-244,"Clermont, Oise",129440,49.3817829,2.4079115
-245,"Compiègne, Oise",179768,49.4179497,2.8263171
-246,"Senlis, Oise",277038,49.2065404,2.5846582
-247,"Alençon, Orne",100033,48.4312059,0.0911374
-248,"Argentan, Orne",118095,48.7428859,-0.0223694
-249,"Mortagne-au-Perche, Orne",71887,48.5205106,0.5501095
-250,"Paris, Paris",2240621,48.8564915,2.3521562
-251,"Arras, Pas-de-Calais",262825,50.291048,2.7772211
-252,"Béthune, Pas-de-Calais",285220,50.5199,2.64781
-253,"Boulogne-sur-Mer, Pas-de-Calais",162271,50.7259985,1.6118771
-254,"Calais, Pas-de-Calais",117810,50.9488,1.87468
-255,"Lens, Pas-de-Calais",359567,50.4291723,2.8319805
-256,"Montreuil, Pas-de-Calais",112381,50.463745,1.7642283
-257,"Saint-Omer, Pas-de-Calais",163554,50.7519911,2.2536678
-258,"Ambert, Puy-de-Dôme",26847,45.5504338,3.742639
-259,"Clermont-Ferrand, Puy-de-Dôme",372347,45.7774551,3.0819427
-260,"Issoire, Puy-de-Dôme",62262,45.5432973,3.2502213
-261,"Riom, Puy-de-Dôme",119613,45.893068,3.1136667
-262,"Thiers, Puy-de-Dôme",57023,45.855795,3.5489707
-263,"Bayonne, Pyrénées-Atlantiques",282964,43.4933379,-1.4750989
-264,"Oloron-Sainte-Marie, Pyrénées-Atlantiques",74625,43.1922408,-0.6115585
-265,"Pau, Pyrénées-Atlantiques",303282,43.2957547,-0.3685667
-266,"Céret, Pyrénées-Orientales",72338,42.485804,2.7488069
-267,"Perpignan, Pyrénées-Orientales",342661,42.6953868,2.8844713
-268,"Prades, Pyrénées-Orientales",42794,42.6181232,2.4230925
-269,"Lyon, Rhône",1563131,45.7578137,4.8320114
-270,"Villefranche-sur-Saône, Rhône",199735,45.9864749,4.726611
-271,"Autun, Saône-et-Loire",87762,46.9510313,4.2989478
-272,"Chalon-sur-Saône, Saône-et-Loire",198990,46.7888997,4.8529605
-273,"Charolles, Saône-et-Loire",100095,46.435311,4.2743162
-274,"Louhans, Saône-et-Loire",55388,46.6291425,5.2232175
-275,"Mâcon, Saône-et-Loire",112804,46.3036683,4.8322266
-276,"La Flèche, Sarthe",152553,47.6968408,-0.0746148
-277,"Le Mans, Sarthe",263803,48.0077781,0.1995339
-278,"Mamers, Sarthe",151026,48.3547,0.371483
-279,"Albertville, Savoie",112294,45.6754622,6.3925417
-280,"Chambéry, Savoie",264843,45.5662672,5.9203636
-281,"Saint-Jean-de-Maurienne, Savoie",43968,45.2775258,6.3453329
-282,"Fontainebleau, Seine-et-Marne",147922,48.4049375,2.7015872
-283,"Meaux, Seine-et-Marne",280607,48.9589146,2.8964865
-284,"Melun, Seine-et-Marne",349580,48.539927,2.6608169
-285,"Provins, Seine-et-Marne",161849,48.561258,3.2973927
-286,"Torcy, Seine-et-Marne",413988,48.8515,2.65265
-287,"Dieppe, Seine-Maritime",235360,49.9246182,1.0791444
-288,"Le Havre, Seine-Maritime",395085,49.4938975,0.1079732
-289,"Rouen, Seine-Maritime",623486,49.4404591,1.0939658
-290,"Bobigny, Seine-Saint-Denis",585188,48.906387,2.4452231
-291,"Le Raincy, Seine-Saint-Denis",542171,48.8986666,2.5155626
-292,"Saint-Denis, Seine-Saint-Denis",411367,48.935773,2.3580232
-293,"Abbeville, Somme",134733,50.1060835,1.8337029
-294,"Amiens, Somme",300040,49.8941708,2.2956951
-295,"Montdidier, Somme",56299,49.646,2.5702
-296,"Péronne, Somme",80082,49.9289578,2.9321899
-297,"Albi, Tarn",186515,43.9277552,2.147899
-298,"Castres, Tarn",192432,43.6036776,2.2417954
-299,"Castelsarrasin, Tarn-et-Garonne",75975,44.0395151,1.1072875
-300,"Montauban, Tarn-et-Garonne",170996,44.0175835,1.3549991
-301,"Belfort, Territoire de Belfort",143940,47.6379599,6.8628942
-302,"Créteil, Val-de-Marne",692809,48.7830727,2.4518371
-303,"L' Haÿ-les-Roses, Val-de-Marne",258623,48.7777135,2.3358494
-304,"Nogent-sur-Marne, Val-de-Marne",390399,48.8353038,2.4810318
-305,"Argenteuil, Val-d'Oise",234596,48.9479069,2.2481797
-306,"Pontoise, Val-d'Oise",497385,49.0508845,2.1008067
-307,"Sarcelles, Val-d'Oise",455100,48.9960813,2.3796245
-308,"Brignoles, Var",146109,43.4064401,6.0616452
-309,"Draguignan, Var",312832,43.5398458,6.4655798
-310,"Toulon, Var",562728,43.1257311,5.9304919
-311,"Apt, Vaucluse",126368,43.8757936,5.3970648
-312,"Avignon, Vaucluse",291350,43.9493143,4.8060329
-313,"Carpentras, Vaucluse",128596,44.0554997,5.048752
-314,"Fontenay-le-Comte, Vendée",131723,46.4661122,-0.8063734
-315,"La Roche-sur-Yon, Vendée",279975,46.6705431,-1.4269697
-316,"Les Sables-d'Olonne, Vendée",237203,46.497222,-1.7833329
-317,"Châtellerault, Vienne",111839,46.8180047,0.545812
-318,"Montmorillon, Vienne",74919,46.4249573,0.8682027
-319,"Poitiers, Vienne",243260,46.5802596,0.340196
-320,"Épinal, Vosges",217216,48.1745644,6.4506416
-321,"Neufchâteau, Vosges",66306,48.3553014,5.6948571
-322,"Saint-Dié-des-Vosges, Vosges",93760,48.2844762,6.951128
-323,"Auxerre, Yonne",180603,47.7954001,3.58452
-324,"Avallon, Yonne",48701,47.493162,3.9117969
-325,"Sens, Yonne",112598,48.1978559,3.282606
-326,"Mantes-la-Jolie, Yvelines",277834,48.9891971,1.7140683
-327,"Rambouillet, Yvelines",223529,48.6482463,1.8328853
-328,"Saint-Germain-en-Laye, Yvelines",553262,48.8990413,2.0942792
-329,"Versailles, Yvelines",357731,48.8035403,2.1266886
+0,"Ānqìng Shì, Ānhuī Shĕng",5311379,30.5119718,117.0429659
+1,"Bèngbù Shì, Ānhuī Shĕng",3164467,33.10505665,117.410684768
+2,"Bózhōu Shì, Ānhuī Shĕng",4850657,33.47036095,116.159252268
+3,"Chízhōu Shì, Ānhuī Shĕng",1402518,30.6607025,117.4792615
+4,"Chúzhōu Shì, Ānhuī Shĕng",3937868,32.2427198,118.3292813
+5,"Fùyáng Shì, Ānhuī Shĕng",7599913,32.8926763,115.8090001
+6,"Héféi Shì, Ānhuī Shĕng",7457027,31.8228094,117.2218033
+7,"Huáibĕi Shì, Ānhuī Shĕng",2114276,33.9575437,116.7928328
+8,"Huáinán Shì, Ānhuī Shĕng",2333896,32.6604304,117.0250917
+9,"Huángshān Shì, Ānhuī Shĕng",1358980,29.7125012,118.3215698
+10,"Lù'ān Shì, Ānhuī Shĕng",5611701,31.7383487,116.5142252
+11,"Mă'ānshān Shì, Ānhuī Shĕng",2202899,31.669966,118.502048
+12,"Sùzhōu Shì, Ānhuī Shĕng",5352924,33.96523775,117.324791601
+13,"Tónglíng Shì, Ānhuī Shĕng",723958,30.9345628,117.8089039
+14,"Wúhú Shì, Ānhuī Shĕng",3545067,31.09339165,118.292831522
+15,"Xuānchéng Shì, Ānhuī Shĕng",2532938,30.9470283,118.7577244
+16,"Bĕijīng Shì, Bĕijīng Shì",19612368,39.9059631,116.391248
+17,"Chóngqìng Shì, Chóngqìng Shì",28846170,29.5585712,106.5492822
+18,"Fúzhōu Shì, Fújiàn Shĕng",7115369,26.0771539,119.2914774
+19,"Lóngyán Shì, Fújiàn Shĕng",2559545,25.0982166,117.0306623
+20,"Nánpíng Shì, Fújiàn Shĕng",2645548,26.6417374,118.173639
+21,"Níngdé Shì, Fújiàn Shĕng",2821996,26.6655699,119.5224895
+22,"Pútián Shì, Fújiàn Shĕng",2778508,25.4342199,119.0074625
+23,"Quánzhōu Shì, Fújiàn Shĕng",8128533,24.9038801,118.5851458
+24,"Sānmíng Shì, Fújiàn Shĕng",2503388,26.2570893,117.6198243
+25,"Xiàmén Shì, Fújiàn Shĕng",3531347,24.497442,118.1355644
+26,"Zhāngzhōu Shì, Fújiàn Shĕng",4809983,24.5174597,117.6586363
+27,"Báiyín Shì, Gānsù Shĕng",1708752,36.5519459,104.1466384
+28,"Dìngxī Shì, Gānsù Shĕng",2698624,35.5815951,104.6199648
+29,"Gānnán Zàngzú Zìzhìzhōu, Gānsù Shĕng",689132,34.5177861,102.6590876
+30,"Jiāyùguān Shì, Gānsù Shĕng",231853,39.8236617,98.2420920073
+31,"Jīnchāng Shì, Gānsù Shĕng",464050,38.5206719,102.185973
+32,"Jiŭquán Shì, Gānsù Shĕng",1095947,40.47572065,96.5446733286
+33,"Lánzhōu Shì, Gānsù Shĕng",3616163,36.282929,103.544543491
+34,"Línxià Huízú Zìzhìzhōu, Gānsù Shĕng",1946677,35.6659679,103.240798
+35,"Lŏngnán Shì, Gānsù Shĕng",2567718,33.387124,104.9313723
+36,"Píngliáng Shì, Gānsù Shĕng",2068033,35.5410175,106.6798544
+37,"Qìngyáng Shì, Gānsù Shĕng",2211191,36.1928329,107.770220686
+38,"Tiānshuĭ Shì, Gānsù Shĕng",3262549,34.5797531,105.7062921
+39,"Wŭwēi Shì, Gānsù Shĕng",1815059,37.928881,102.6359886
+40,"Zhāngyè Shì, Gānsù Shĕng",1199515,38.9243532,100.4483826
+41,"Cháozhōu Shì, Guăngdōng Shĕng",2669466,23.6566146,116.6205482
+42,"Dōngguān Shì, Guăngdōng Shĕng",8220207,23.0449275,113.7524781
+43,"Fóshān Shì, Guăngdōng Shĕng",7197394,23.0249168,113.1146174
+44,"Guăngzhōu Shì, Guăngdōng Shĕng",12701948,23.1300037,113.259001
+45,"Héyuán Shì, Guăngdōng Shĕng",2950195,23.7379776,114.692015
+46,"Huìzhōu Shì, Guăngdōng Shĕng",4598402,23.1060862,114.4141105
+47,"Jiāngmén Shì, Guăngdōng Shĕng",4450703,22.5766294,113.079047
+48,"Jiēyáng Shì, Guăngdōng Shĕng",5884347,23.33239835,116.058870544
+49,"Màomíng Shì, Guăngdōng Shĕng",5817494,21.6729946,110.9100185
+50,"Méizhōu Shì, Guăngdōng Shĕng",4238461,24.3053552,116.1177436
+51,"Qīngyuăn Shì, Guăngdōng Shĕng",3698412,23.6832977,113.0507495
+52,"Shàntóu Shì, Guăngdōng Shĕng",5389328,23.34189025,116.567257609
+53,"Shànwĕi Shì, Guăngdōng Shĕng",2935469,22.7752816,115.3541259
+54,"Sháoguān Shì, Guăngdōng Shĕng",2826246,24.8134099,113.5923564
+55,"Shēnzhèn Shì, Guăngdōng Shĕng",10358381,22.5442673,114.0545327
+56,"Yángjiāng Shì, Guăngdōng Shĕng",2421748,21.8526328,111.95935
+57,"Yúnfú Shì, Guăngdōng Shĕng",2367154,22.8715833,111.8061758
+58,"Zhànjiāng Shì, Guăngdōng Shĕng",6994832,21.2021916,110.4045975
+59,"Zhàoqìng Shì, Guăngdōng Shĕng",3916467,23.0515551,112.4728451
+60,"Zhōngshān Shì, Guăngdōng Shĕng",3121275,22.5213807,113.3656141
+61,"Zhūhăi Shì, Guăngdōng Shĕng",1562530,22.2657516,113.568045
+62,"Băisè Shì, Guăngxī Zhuàngzú Zìzhìqū",3466758,23.8974921,106.6263225
+63,"Bĕihăi Shì, Guăngxī Zhuàngzú Zìzhìqū",1539251,21.4799081,109.1068061
+64,"Chóngzuŏ Shì, Guăngxī Zhuàngzú Zìzhìqū",1994285,22.4041727,107.3527971
+65,"Fángchénggăng Shì, Guăngxī Zhuàngzú Zìzhìqū",866927,21.93668425,107.911350036
+66,"Guìgăng Shì, Guăngxī Zhuàngzú Zìzhìqū",4118808,23.3560696,110.075942454
+67,"Guìlín Shì, Guăngxī Zhuàngzú Zìzhìqū",4747963,25.276006,110.2847529
+68,"Héchí Shì, Guăngxī Zhuàngzú Zìzhìqū",3369251,24.5929109,107.839651284
+69,"Hèzhōu Shì, Guăngxī Zhuàngzú Zìzhìqū",1954072,24.39945215,111.514586214
+70,"Láibīn Shì, Guăngxī Zhuàngzú Zìzhìqū",2099711,23.8668624,109.286376427
+71,"Liŭzhōu Shì, Guăngxī Zhuàngzú Zìzhìqū",3758704,24.3213044,109.4066186
+72,"Nánníng Shì, Guăngxī Zhuàngzú Zìzhìqū",6658742,22.8325591,108.3027168
+73,"Qīnzhōu Shì, Guăngxī Zhuàngzú Zìzhìqū",3079721,22.1430054,108.865923702
+74,"Wúzhōu Shì, Guăngxī Zhuàngzú Zìzhìqū",2882200,23.4977795,111.029290872
+75,"Yùlín Shì, Guăngxī Zhuàngzú Zìzhìqū",5487368,22.6354097,110.1498186
+76,"Ānshùn Shì, Guìzhōu Shĕng",2297612,25.99077865,105.779825094
+77,"Bìjié Shì, Guìzhōu Shĕng",6537498,27.0713514,105.033170617
+78,"Guìyáng Shì, Guìzhōu Shĕng",4322611,26.5814112,106.7052544
+79,"Liùpánshuĭ Shì, Guìzhōu Shĕng",2851332,26.12750465,104.759038287
+80,"Qiándōngnán Miáozú Dòngzú Zìzhìzhōu, Guìzhōu Shĕng",3481891,26.4170799,108.414400852
+81,"Qiánnán Bùyīzú Miáozú Zìzhìzhōu, Guìzhōu Shĕng",3232714,26.28443185,107.261221825
+82,"Qiánxīnán Bùyīzú Miáozú Zìzhìzhōu, Guìzhōu Shĕng",2804612,25.39923765,105.534377647
+83,"Tóngrén Shì, Guìzhōu Shĕng",3093204,27.952938,108.584018
+84,"Zūnyì Shì, Guìzhōu Shĕng",6127082,28.1836934,106.831699002
+85,"Hăikŏu Shì, Hăinán Shĕng",2046170,19.82089215,110.449561344
+86,Hăinán Shĕngzhíxiáxiàn Jíxíngzhèng Qūhuà,5939463,19.2916105,109.7776863

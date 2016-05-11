@@ -107,13 +107,13 @@ class GetLatLon():
         self.data_num = len(self.df.values[:, 1])
 
     def get_csv(self):
-        geolocator = Nominatim(format_string='%s,France')
+        geolocator = Nominatim(format_string='%s,China')
         name_list=[]
         pop_list=[]
         i_list=[]
         lat=[]         
         lon=[]         
-        start = 231 #はじめは 0 スタート
+        start = 311 #はじめは 0 スタート
         for i in range(start, self.data_num):
             name = self.df.iloc[i, 0]
             pop = self.df.iloc[i, 1]
@@ -129,7 +129,10 @@ class GetLatLon():
                                 columns = ['', 'name', 'pop', 'lat', 'lon'],\
                                 index = None)
             
-            df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None)
+            if start == 0:
+                df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None, columns=None)
+            else:
+                df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None)
             
 
 def main1():

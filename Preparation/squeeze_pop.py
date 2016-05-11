@@ -5,17 +5,17 @@ import codecs
 
 
 def main1():
-    filename = 'population.csv'
-    column_num = 7 #年数のcolumn
+    filename = 'pop_china.csv'
+    column_num = 4 #年数のcolumn
     
     pop = pd.read_csv(filename, encoding='utf-8')
     print '===columns===\n', pd.Series(pop.columns), '\n'
-    df = pop.iloc[:, [0, 1, column_num]]
+    df = pop.iloc[:, [0, 2, column_num]]
     
     data_name = []
     data_pop = []
     for name, status, population in df.values:
-        if status == 'Department':
+        if status == 'Province' or status == 'Municipal Province':
             state_temp = name
             print '===== %s, %s ===== ' %(status, name)
         else :
