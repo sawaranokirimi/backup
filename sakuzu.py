@@ -117,9 +117,11 @@ class Drawing():
             r = np.sqrt(np.abs(z)) / norm / pop_max *( 0.3 + 1.4*(pop_max - pop_min) )
             r = r * teisuu
             if z >= 0:
-                circle = patches.Circle(xy, r, color=(0.15,0.15,0.55), ec='0.0', alpha=1.0)
+                #circle = patches.Circle(xy, r, color=(0.15,0.15,0.55), ec='0.0', alpha=1.0)
+                circle = patches.Circle(xy, r, color=(0.,0.,1.), ec='0.0', alpha=1.0)
             else :
-                circle = patches.Circle(xy, r, color=(1,1,0.5), ec='0.0', alpha=1.0)
+                #circle = patches.Circle(xy, r, color=(1,1,0.5), ec='0.0', alpha=1.0)
+                circle = patches.Circle(xy, r, color=(1.,1.,0.), ec='0.0', alpha=1.0)
             self.ax.add_patch(circle)                                                    
 
 
@@ -129,7 +131,7 @@ class Drawing():
         self.scatter(teisuu)
         self.combine()
         self.fig.savefig('%s.eps' % self.figname) 
-        self.fig.savefig('%s.pdf' % self.figname)
+#        self.fig.savefig('%s.pdf' % self.figname)
         self.fig.savefig('%s.png' % self.figname)
 
    # Blue と Yellow で scatterを用いず作図
@@ -140,6 +142,7 @@ class Drawing():
         self.fig.savefig('%s.eps' % self.figname) 
         self.fig.savefig('%s.pdf' % self.figname)
         self.fig.savefig('%s.png' % self.figname)
+        plt.close()
 
    # ｘｙのラベルがないデータの作図
     def draw_all_noxy(self, teisuu=140):
@@ -181,7 +184,7 @@ def main3():
     drawing.combine()
     #drawing.scatter()
     drawing.circle(teisuu=1.0)
-    plt.show()
+    #plt.show()
 
 
 def main_heikou():

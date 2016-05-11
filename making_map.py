@@ -73,12 +73,20 @@ class Ploting():
         line = mlines.Line2D(x, y, color='green')
         taikaku_line = self.ax.add_line(line)
 
-    def callback_parallel(self, toumeido=0.1, grid=True, face=True):
+    def callback_parallel(self, toumeido=0.1, grid=True, face=True, rireki=False):
         lines = set_to_grid.Lines(self.data, self.lt, self.rb)
+        if rireki == True:
+            df = pd.read_csv('data_lt_rb.csv', index_col=0)
+            lt= [df.ix[0,0], df.ix[0,1]]
+            rb= [df.ix[1,0], df.ix[1,1]]
+            lines = set_to_grid.Lines(self.data, lt, rb)
+
         lb = lines.lattice_genten()
         rt = lines.lattice_rt()
         
         parallel = parallelogram.Parallel(lb, self.lt, rt, self.rb)
+        if rireki == True:
+            parallel = parallelogram.Parallel(lb, lt, rt, rb)
         path = parallel.parallel_outline()
         path_grid = parallel.parallel_grid()
         if face==True:
@@ -89,6 +97,38 @@ class Ploting():
         self.ax.add_patch(patch)                                                    
         if grid==True:
             self.ax.add_patch(patch_grid)                                               
+
+    def heikou(self, lt, rb, toumeido=0.1, color=(1, 0, 0), lw=1):
+        lines = set_to_grid.Lines(self.data, lt, rb)
+        lb = lines.lattice_genten()
+        rt = lines.lattice_rt()
+        parallel = parallelogram.Parallel(lb, lt, rt, rb)
+
+        path = parallel.parallel_outline()
+        patch = patches.PathPatch(path, facecolor='none', edgecolor=color, lw=lw, alpha=toumeido)   
+        return patch
+
+    def draw_many(self, df, kaiseki=True):
+        # 人口の散布図
+        teisuu = 500
+        data = self.convert()
+        data['pop'] = data['pop'] / np.linalg.norm(data['pop']) 
+        self.fig.canvas.draw() # キャンバスに描く
+        sca = self.ax.scatter(data['x'], data['y'], teisuu*np.abs(data['pop']), \
+                color='blue', edgecolors='grey', alpha=0.5)
+
+        # 分析範囲の作図
+        if kaiseki is True:
+            df = df.sort('target', ascending=True)
+            target_max = max(df.values[:, 4])
+        for lt_rb in df.values:
+            lt = (lt_rb[0], lt_rb[1]) 
+            rb = (lt_rb[2], lt_rb[3])
+            if kaiseki is True and lt_rb[4] == target_max:
+                self.ax.add_patch(self.heikou(lt, rb, 0.8, (1, 0, 0), 2.5))
+            else:
+                self.ax.add_patch(self.heikou(lt, rb, 0.3, (1, 0.5, 0.0)))
+        plt.show()
             
 
     # callbackして描いたものをOFFにする
@@ -169,16 +209,32 @@ def main2():
     
 # 分析範囲確認用
 def main3():
-    file_name = 'france-pop-1999/france-pop-1999.csv'
-    lt= (18871443, 20315300)
-    rb= (19227323, 20598935)
-    ploting = Ploting(file_name, kaizoudo='i')
+    file_name = 'usa_canada-pop-2014/usa_canada-pop-2014.csv'
+    file_name2 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
+    df = pd.read_csv('data_lt_rb.csv', index_col=0)
+    print df
+    lt= [df.ix[0,0], df.ix[0,1]]
+    rb= [df.ix[1,0], df.ix[1,1]]
+    ploting = Ploting(file_name2, kaizoudo='i')
     ploting.make_fig()
-    ploting.analizing_area(lt, rb, teisuu=3000)
+    ploting.analizing_area(lt, rb, teisuu=5000)
+    #ploting.analizing_area(lt2, rb2, teisuu=3000)
+
+def for_auto(lt_rb, kaiseki=True):
+    file_name = 'usa_canada-pop-2014/usa_canada-pop-2014.csv'
+    file_name2 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
+    ploting = Ploting(file_name2, kaizoudo='c')
+    ploting.make_fig()
+
+    #lt_rb = pd.read_csv('data_rooped.csv', index_col=0)
+
+    ploting.draw_many(lt_rb, kaiseki)
+
     
 
 
 
    
 if __name__ == '__main__':
-    main3()               
+    #main3()               
+    for_auto()

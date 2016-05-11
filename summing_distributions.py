@@ -32,9 +32,9 @@ def stdout_utf():
 # 任意の分布を選び、重ね合わせる
 def main1():
     #filename = 'moved_transformation_matrix_18.csv'
-    filename = 'usa-pop-2014(3)/distribution.csv'
-    draw_list = [5, 16, 25]
-    figname = 'figure_sumed-atlanta'
+    filename = 'usa-pop-2014(17)/distribution.csv'
+    draw_list = [8, 16, 22, 25, 26]
+    figname = 'figure_sumed'
     #draw_list = range(288, 311, 2)
 
     summingdist = SummingDist(filename)
@@ -62,4 +62,4 @@ def main2():
 
 if __name__ == '__main__':
     stdout_utf()
-    main2()
+    main1()

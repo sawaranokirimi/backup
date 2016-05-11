@@ -33,7 +33,7 @@ def main1():
         name = 'm=' + file_names[i]
         pop = pd.concat([pd.DataFrame(xy), df.iloc[:, i]], axis=1)  
         #sakuzu.Drawing(pop, name, n=18).draw_all()
-        sakuzu.Drawing(pop, name, n=18).draw_all_BY(teisuu=1.0)
+        sakuzu.Drawing(pop, name, n=18).draw_all_BY(teisuu=1.7)
 
 
 if __name__ == '__main__':

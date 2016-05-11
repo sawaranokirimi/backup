@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ptick
 import sakuzu
+import tex_columns
+#import seaborn as sb
 from matplotlib.font_manager import FontProperties
 
 
@@ -104,6 +106,7 @@ class Norm(DoubleFourier):
         df = pd.concat([colname, norm], axis=1)
 
         df.to_csv('norm.csv')
+        return df
 
 
 class PlotNorm():
@@ -136,6 +139,7 @@ class GraphNorm(Graph):
         Graph.__init__(self, name)
         self.norm = norm
         self.col_norm = col_norm
+        #self.col_norm = tex_columns.columns()
         print norm
 
     def plot_norm_frame(self):
@@ -145,7 +149,7 @@ class GraphNorm(Graph):
         ax.yaxis.set_major_formatter(ptick.ScalarFormatter(useMathText=True))
         norm = self.norm
         x = range(len(self.norm))
-        fp = FontProperties(fname=r'/usr/share/fonts/truetype/vlgothic/VL-PGothic-Regular.ttf', size=14)
+        fp = FontProperties(fname=r'/usr/share/fonts/truetype/vlgothic/VL-PGothic-Regular.ttf', size=12)
         #label = self.to_tex(self.col_norm)
         #for i, content in enumerate(label):
         #    label[i] = content.replace('k=', '')
@@ -154,10 +158,16 @@ class GraphNorm(Graph):
         ax.set_xticks(x)
         #ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
         label = self.col_norm
-        ax.set_xticklabels(label, rotation='vertical', fontproperties=fp)
+        #label = 'm=' + label
+        label[0] = 'Uniform'
+        ax.set_xticklabels(label, rotation=90, fontproperties=fp)
         #ax.set_yticklabels([r'$0$', r'$0.25$', r'$0.5$', r'$0.75$', r'$1.0$'])
-        ax.set_xlabel(r'$\rm{k}$')
-        ax.set_ylabel(r'$\rm{power\,  spectra}$')
+        #ax.set_xlabel(r'$\rm{m}$')
+        #ax.set_ylabel(r'$\rm{power\,  spectra}$')
+        ax.set_xlabel(r'$m$', fontsize=16)
+        ax.set_ylabel('Power Spectra', fontsize=14)
+        ax.get_xaxis().set_tick_params(direction='out', which='both')
+        ax.tick_params(direction='in', pad=4)
 
     def plot_norm(self):
         ax = self.ax
@@ -165,7 +175,8 @@ class GraphNorm(Graph):
         x = range(len(self.norm))
 
         self.plot_norm_frame()
-        ax.plot(x, norm, color='black', marker ='o', markeredgecolor = 'None')
+        #ax.plot(x, norm, color='black', marker ='o', markeredgecolor = 'None')
+        ax.bar(x, norm, color=(0.2,0.2,0.2), width=0.4, align='center')
 
         # 追加のPlot
         #norm2 = pd.read_csv('norm2.csv', encoding='utf-8')['norm']
@@ -193,7 +204,7 @@ def main1():
     graphnorm.plot_norm()
     print norm.distribution()
 #    plotnorm.plot()
+    plt.show()
 
 if __name__ == '__main__':
     main1()      
-    plt.show()

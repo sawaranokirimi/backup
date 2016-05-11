@@ -113,7 +113,7 @@ class GetLatLon():
         i_list=[]
         lat=[]         
         lon=[]         
-        start = 0  #はじめは 0 スタート
+        start = 231 #はじめは 0 スタート
         for i in range(start, self.data_num):
             name = self.df.iloc[i, 0]
             pop = self.df.iloc[i, 1]
@@ -146,21 +146,22 @@ def main2():
     citydata.concatenate2()
 
 def main3():
-    filename = './france-pop-1999/data_prim.csv'
+    filename = 'data_prim.csv'
     getlatlon = GetLatLon(filename)
     getlatlon.get_csv()
 
 def main4():
-    geolocator = Nominatim(format_string='%s,USA')
+    geolocator = Nominatim(format_string='%s,Czech Republic')
     name='Börde'
     name2='Oldenburg'
     name3='Altenkirchen'
     name4='Kitzbühel'
     name5='Salzburg'
     name6='Thomas, Nebraska'
+    name7='Leeds and Grenville'
+    name8='Jindřichův Hradec, Jihočeský kraj' 
 
-
-    NAME = name6
+    NAME = name8
     geocoded = geolocator.geocode(NAME, exactly_one=False)        
     geocoded_one = geolocator.geocode(NAME)        
     
@@ -175,7 +176,7 @@ def stdout_utf():
 
 if __name__ == '__main__':
     stdout_utf()
-    main3()
+    main3()  
 
 
 

@@ -4,12 +4,9 @@ import sys
 import codecs
 
 
-
-
-
 def main1():
     filename = 'population.csv'
-    column_num = 5 #年数のcolumn
+    column_num = 7 #年数のcolumn
     
     pop = pd.read_csv(filename, encoding='utf-8')
     print '===columns===\n', pd.Series(pop.columns), '\n'

@@ -83,14 +83,14 @@ class Lines():
     def gather(self):
         pop_on_lattice = np.zeros([self.n, self.n]) 
         for i, j, pop in self.set_on_lattice():               
-            print i, j, pop               
+            #print i, j, pop               
             pop_on_lattice[i, j] += pop   
 
         x = []
         y = []
         z = []
         for index, pop in np.ndenumerate(pop_on_lattice.T):
-            print index
+            #print index
             x.append(index[1])
             y.append(index[0])
             z.append(pop)

@@ -5,6 +5,7 @@ Census
 2010-12-31","Population
 Estimate
 2014-12-31"
+Aargau [Argovia],Canton,547493,611466,645277
 Bezirk Aarau,District,63191,70594,74350
 Bezirk Baden,District,116537,131565,138320
 Bezirk Bremgarten,District,61661,69329,73796
@@ -16,16 +17,21 @@ Bezirk Muri,District,28254,32339,34285
 Bezirk Rheinfelden,District,37257,43805,46559
 Bezirk Zofingen,District,58244,64710,68295
 Bezirk Zurzach,District,30163,32114,32891
+Appenzell Ausserrhoden,Canton,53504,53017,54064
 Bezirk Hinterland,District,24248,23577,23883
 Bezirk Mittelland,District,15623,16195,16775
 Bezirk Vorderland,District,13633,13245,13406
 Appenzell Innerrhoden,Canton,14618,15688,15854
+Appenzell Innerrhoden,Canton,14618,15688,15854
+Basel-Landschaft [Basel Country],Canton,259374,274404,281301
 Bezirk Arlesheim,District,141599,148996,152563
 Bezirk Laufen,District,17182,18901,19468
 Bezirk Liestal,District,54421,57229,58648
 Bezirk Sissach,District,31029,33688,34755
 Bezirk Waldenburg,District,15143,15590,15867
 Basel-Stadt [Basel City],Canton,188079,184950,190580
+Basel-Stadt [Basel City],Canton,188079,184950,190580
+Bern (Berne),Canton,957197,979802,1009418
 Arrondissement administratif Jura bernois [Bernese Jura],District,51408,51668,53318
 Verwaltungskreis Bern-Mittelland,District,385319,388546,402520
 Verwaltungskreis Biel/Bienne,District,88584,93859,97928
@@ -36,6 +42,7 @@ Verwaltungskreis Oberaargau,District,75228,77181,79196
 Verwaltungskreis Obersimmental-Saanen,District,16743,16810,16777
 Verwaltungskreis Seeland,District,64714,68288,71126
 Verwaltungskreis Thun,District,98439,104092,106238
+Fribourg (Freiburg),Canton,241706,278493,303377
 Bezirk See / District du Lac [Lake District],District,28051,32911,34901
 Bezirk Sense,District,38299,41113,42950
 District de la Broye,District,21309,26525,30035
@@ -44,7 +51,10 @@ District de la Gruyère,District,38070,46415,51580
 District de la Sarine,District,85127,94849,103330
 District de la Veveyse,District,12614,15972,17664
 Genève [Geneva],Canton,413673,457715,477385
+Genève [Geneva],Canton,413673,457715,477385
 Glarus,Canton,38183,38608,39794
+Glarus,Canton,38183,38608,39794
+"Graubünden (Grigioni, Grischun) [Grisons]",Canton,187058,192621,195886
 Bezirk Albula,District,8213,8227,8177
 Bezirk Hinterrhein,District,12325,12672,13171
 Bezirk Imboden,District,16859,18773,19781
@@ -56,15 +66,18 @@ Bezirk Prättigau-Davos,District,26431,26198,26312
 Bezirk Surselva,District,21618,21777,21279
 Distretto di Bernina,District,4427,4629,4652
 Distretto di Moesa,District,7471,7863,8338
+Jura,Canton,68224,70032,72410
 District de Delémont,District,34484,35921,37660
 District de Porrentruy,District,24201,24145,24488
 District des Franches-Montagnes,District,9539,9966,10262
+Luzern [Lucerne],Canton,350504,377610,394604
 Wahlkreis Entlebuch,District,22468,22802,23152
 Wahlkreis Hochdorf,District,60551,66081,69693
 Wahlkreis Luzern-Land [Lucerne Country],District,86603,95438,98681
 Wahlkreis Luzern-Stadt [Lucerne City],District,75425,77491,81057
 Wahlkreis Sursee,District,58215,66624,70296
 Wahlkreis Willisau,District,46807,49174,51725
+Neuchâtel,Canton,167949,172085,177327
 District de Boudry,District,36721,38866,40028
 District de la Chaux-de-Fonds,District,38238,38688,40192
 District de Neuchâtel,District,51685,52669,53676
@@ -72,19 +85,24 @@ District du Locle,District,14603,14099,14489
 District du Val-de-Ruz,District,14528,15831,16891
 District du Val-de-Travers,District,12174,11932,12051
 Nidwalden [Nidwald],Canton,37235,41024,42080
+Nidwalden [Nidwald],Canton,37235,41024,42080
 Obwalden [Obwald],Canton,32427,35585,36834
+Obwalden [Obwald],Canton,32427,35585,36834
+Schaffhausen,Canton,73392,76356,79417
 Bezirk Oberklettgau,District,3979,4045,4215
 Bezirk Reiat,District,7260,7946,8616
 Bezirk Schaffhausen,District,49412,51457,53262
 Bezirk Schleitheim,District,2986,2947,3024
 Bezirk Stein,District,4986,5222,5470
 Bezirk Unterklettgau,District,4595,4739,4830
+Schwyz,Canton,128704,146730,152759
 Bezirk Einsiedeln,District,12622,14385,14949
 Bezirk Gersau,District,1934,2094,2213
 Bezirk Höfe,District,22908,27336,28028
 Bezirk Küssnacht,District,10704,12224,12395
 Bezirk March,District,32995,38983,41575
 Bezirk Schwyz,District,47541,51708,53599
+Solothurn,Canton,244341,255284,263719
 Bezirk Bucheggberg,District,7092,7543,7630
 Bezirk Dorneck,District,17978,19517,20179
 Bezirk Gäu,District,16737,18135,19960
@@ -95,6 +113,7 @@ Bezirk Solothurn,District,15489,16066,16545
 Bezirk Thal,District,14038,14216,14281
 Bezirk Thierstein,District,13483,13947,14212
 Bezirk Wasseramt,District,46252,48237,49714
+St. Gallen,Canton,452837,478907,495824
 Wahlkreis Rheintal,District,61644,67509,70334
 Wahlkreis Rorschach,District,38382,41047,42124
 Wahlkreis Sarganserland,District,35339,37775,39692
@@ -103,11 +122,13 @@ Wahlkreis St. Gallen,District,114305,117823,121144
 Wahlkreis Toggenburg,District,45907,45056,45598
 Wahlkreis Werdenberg,District,33004,35644,37581
 Wahlkreis Wil,District,66350,71554,74203
+Thurgau [Thurgovia],Canton,228875,248444,263733
 Bezirk Arbon,District,48121,51893,54281
 Bezirk Frauenfeld,District,57406,61778,64770
 Bezirk Kreuzlingen,District,37465,42559,46001
 Bezirk Münchwilen,District,38302,42024,45112
 Bezirk Weinfelden,District,47581,50190,53569
+Ticino,Canton,306846,333753,350363
 Distretto di Bellinzona,District,43398,48231,50803
 Distretto di Blenio,District,5175,5530,5653
 Distretto di Leventina,District,8909,9600,9412
@@ -117,6 +138,8 @@ Distretto di Mendrisio,District,45276,48729,51073
 Distretto di Riviera,District,11434,12533,13013
 Distretto di Vallemaggia,District,5485,5762,6021
 Uri,Canton,34777,35422,36008
+Uri,Canton,34777,35422,36008
+Valais (Wallis),Canton,272399,312684,331763
 Bezirk Brig,District,23052,25033,26303
 Bezirk Goms,District,4484,4745,4506
 Bezirk Leuk,District,11470,12294,12316
@@ -130,26 +153,7 @@ District de Saint-Maurice,District,10420,12360,13443
 District de Sierre,District,40018,46134,48476
 District de Sion,District,36993,42431,45473
 District d'Hérens,District,9029,10363,10874
+Vaud,Canton,640657,713281,761446
 District d'Aigle,District,35248,40143,43674
 District de la Broye-Vully,District,31476,36246,41041
 District de la Riviera-Pays-d'Enhaut,District,72023,79431,83423
-District de Lausanne,District,144764,150362,158645
-District de Lavaux-Oron,District,50494,55915,58624
-District de l'Ouest lausannois,District,63242,68232,71838
-District de Morges,District,64499,73747,78464
-District de Nyon,District,74083,89601,95548
-District du Gros-de-Vaud,District,31401,37917,42120
-District du Jura-Nord vaudois,District,73188,81687,88069
-Zug,Canton,100052,113105,120089
-Bezirk Affoltern,District,41821,48096,50591
-Bezirk Andelfingen,District,26608,29511,30654
-Bezirk Bülach,District,110465,131879,141242
-Bezirk Dielsdorf,District,68758,80090,85790
-Bezirk Dietikon,District,73169,80547,86826
-Bezirk Hinwil,District,77206,87822,92462
-Bezirk Horgen,District,106670,115301,121220
-Bezirk Meilen,District,87030,97034,99946
-Bezirk Pfäffikon,District,50269,55768,58397
-Bezirk Uster,District,106071,120607,126004
-Bezirk Winterthur,District,136566,153556,161863
-Bezirk Zürich,District,363273,372857,391359
