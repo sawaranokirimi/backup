@@ -5,20 +5,6 @@ import pandas as pd
 import sys
 import codecs
 
-#soup = BeautifulSoup(open('USA-Cities.html'))
-#b = soup.find(id='citysection').find_all('tr', itemtype="http://schema.org/City")  
-#data = []
-
-#for bi in b:
-   # print bi.find(itemprop='name').string, bi.find('td', 'rpop prio1').string
-#    data.append(bi.find(itemprop='name').string)
-
-
-
-#cityname = str(data[0])
-#geolocator = Nominatim()
-#print cityname, geolocator.geocode(cityname).longitude
-
 
 class CityData():
     def __init__(self, htmlfile):
@@ -107,13 +93,13 @@ class GetLatLon():
         self.data_num = len(self.df.values[:, 1])
 
     def get_csv(self):
-        geolocator = Nominatim(format_string='%s,China')
+        geolocator = Nominatim(format_string='%s,RUSSIA')
         name_list=[]
         pop_list=[]
         i_list=[]
         lat=[]         
         lon=[]         
-        start = 311 #はじめは 0 スタート
+        start = 268 #はじめは 0 スタート
         for i in range(start, self.data_num):
             name = self.df.iloc[i, 0]
             pop = self.df.iloc[i, 1]
@@ -130,9 +116,9 @@ class GetLatLon():
                                 index = None)
             
             if start == 0:
-                df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None, columns=None)
-            else:
                 df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None)
+            else:
+                df.to_csv('hogehoge-%d.csv' %start, encoding='utf-8', index=None, columns=None)
             
 
 def main1():

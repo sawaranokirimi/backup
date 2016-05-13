@@ -2,20 +2,29 @@
 import pandas as pd
 import sys
 import codecs
+import re
+
+# []を置き換える
+def replace(sentence):
+    pattern = re.compile('\[.*\]')
+    x = ''
+    return pattern.sub(x, sentence) 
 
 
 def main1():
-    filename = 'pop_china.csv'
-    column_num = 4 #年数のcolumn
+    filename = 'population.csv'
+    column_num = 5 #年数のcolumn
     
     pop = pd.read_csv(filename, encoding='utf-8')
     print '===columns===\n', pd.Series(pop.columns), '\n'
-    df = pop.iloc[:, [0, 2, column_num]]
+    df = pop.iloc[:, [1, 2, column_num]]
     
     data_name = []
     data_pop = []
     for name, status, population in df.values:
-        if status == 'Province' or status == 'Municipal Province':
+        name = replace(name)
+        status = replace(status)
+        if status == 'Province (Oblast)':
             state_temp = name
             print '===== %s, %s ===== ' %(status, name)
         else :

@@ -218,7 +218,7 @@ def main3():
     rb= [df.ix[1,0], df.ix[1,1]]
     ploting = Ploting(file_name4, kaizoudo='i')
     ploting.make_fig()
-    ploting.analizing_area(lt, rb, teisuu=5000)
+    ploting.analizing_area(lt, rb, teisuu=2000)
     #ploting.analizing_area(lt2, rb2, teisuu=3000)
 
 def for_auto(lt_rb, kaiseki=True):
@@ -238,5 +238,5 @@ def for_auto(lt_rb, kaiseki=True):
 
    
 if __name__ == '__main__':
-    #main3()               
-    for_auto()
+    main3()               
+    #for_auto()
