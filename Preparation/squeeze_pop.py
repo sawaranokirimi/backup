@@ -13,7 +13,7 @@ def replace(sentence):
 
 def main1():
     filename = 'population.csv'
-    column_num = 5 #年数のcolumn
+    column_num = 4 #年数のcolumn
     
     pop = pd.read_csv(filename, encoding='utf-8')
     print '===columns===\n', pd.Series(pop.columns), '\n'
@@ -24,7 +24,8 @@ def main1():
     for name, status, population in df.values:
         name = replace(name)
         status = replace(status)
-        if status == 'Province (Oblast)':
+        #if status == 'Province (Oblast)':
+        if status == 'Republic':
             state_temp = name
             print '===== %s, %s ===== ' %(status, name)
         else :
