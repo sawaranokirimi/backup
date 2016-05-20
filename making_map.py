@@ -212,11 +212,12 @@ def main3():
     file_name = 'usa_canada-pop-2014/usa_canada-pop-2014.csv'
     file_name2 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
     file_name4 = 'CityPopulation/china/population-china-2010.csv'
+    file_name5 = 'CityPopulation/russia/russia_all-pop-2010.csv'
     df = pd.read_csv('data_lt_rb.csv', index_col=0)
     print df
     lt= [df.ix[0,0], df.ix[0,1]]
     rb= [df.ix[1,0], df.ix[1,1]]
-    ploting = Ploting(file_name4, kaizoudo='i')
+    ploting = Ploting(file_name5, kaizoudo='i')
     ploting.make_fig()
     ploting.analizing_area(lt, rb, teisuu=2000)
     #ploting.analizing_area(lt2, rb2, teisuu=3000)
@@ -225,7 +226,8 @@ def for_auto(lt_rb, kaiseki=True):
     file_name = 'usa_canada-pop-2014/usa_canada-pop-2014.csv'
     file_name2 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
     file_name4 = 'CityPopulation/china/population-china-2010.csv'
-    ploting = Ploting(file_name4, kaizoudo='c')
+    file_name5 = 'CityPopulation/russia/russia_all-pop-2010.csv'
+    ploting = Ploting(file_name5, kaizoudo='c')
     ploting.make_fig()
 
     #lt_rb = pd.read_csv('data_rooped.csv', index_col=0)

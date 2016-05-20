@@ -99,7 +99,7 @@ class GetLatLon():
         i_list=[]
         lat=[]         
         lon=[]         
-        start = 407 #はじめは 0 スタート
+        start = 162 #はじめは 0 スタート
         for i in range(start, self.data_num):
             name = self.df.iloc[i, 0]
             pop = self.df.iloc[i, 1]

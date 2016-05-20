@@ -12,8 +12,9 @@ def main1():
    file_name2 = 'czech-pop-2014/czech-pop-2014.csv'
    file_name3 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
    file_name4 = 'CityPopulation/china/population-china-2010.csv'
+   file_name5 = 'CityPopulation/russia/russia_all-pop-2010.csv'
    memo = 'data_memo.txt'
-   ploting = Ploting(file_name4)
+   ploting = Ploting(file_name5)
    ploting.convert()
    ploting.make_fig()
    if os.path.isfile('/home/kdaichi/Workspace/Pywork/data_lt_rb.csv') == True:
@@ -59,9 +60,10 @@ def max_of_rooped():
    file_name2 = 'czech-pop-2014/czech-pop-2014.csv'
    file_name3 = 'south_germany-pop-2011/south_germany-pop-2011.csv'
    file_name4 = 'CityPopulation/china/population-china-2010.csv'
+   file_name5 = 'CityPopulation/russia/russia_all-pop-2010.csv'
    memo = 'data_memo.txt'
 
-   ploting = Ploting(file_name4)
+   ploting = Ploting(file_name5)
    ploting.convert()
    ploting.make_fig()
    ploting.scatter(teisuu=4000.)
